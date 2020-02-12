@@ -1,0 +1,52 @@
+[
+   {
+      "Id": 1,
+      "PAN": 2021600000000000,
+      "PIN": 1994,
+      "Balance": 250000,
+      "HolderName": "ADMIN CLIENT",
+      "CVV": 333,
+      "Validity": 222,
+      "ClientId": 1
+   },
+   {
+      "Id": 4,
+      "PAN": 2021600000000001,
+      "PIN": 1234,
+      "Balance": 499992,
+      "HolderName": "sdasd",
+      "CVV": 123,
+      "Validity": 123,
+      "ClientId": 1
+   },
+   {
+      "Id": 5,
+      "PAN": 2021600000000002,
+      "PIN": 3212,
+      "Balance": 250000,
+      "HolderName": "dasd",
+      "CVV": 1231,
+      "Validity": 3213,
+      "ClientId": 1
+   },
+   {
+      "Id": 6,
+      "PAN": 2021600000000003,
+      "PIN": 12332,
+      "Balance": 0,
+      "HolderName": "cfrew",
+      "CVV": 232,
+      "Validity": 232,
+      "ClientId": 2
+   },
+   {
+      "Id": 8,
+      "PAN": 2021600000000004,
+      "PIN": 4444,
+      "Balance": 50000000,
+      "HolderName": "BARTJR SIMPSON",
+      "CVV": 999,
+      "Validity": 1222,
+      "ClientId": 6
+   }
+]

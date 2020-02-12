@@ -1,0 +1,14 @@
+[
+   {
+      "Id": 1,
+      "City": "Dushanbe",
+      "District": "Somoni",
+      "Street": "Foteh51"
+   },
+   {
+      "Id": 2,
+      "City": "dushanbe",
+      "District": "Shohmansur",
+      "Street": "Sadbarg"
+   }
+]

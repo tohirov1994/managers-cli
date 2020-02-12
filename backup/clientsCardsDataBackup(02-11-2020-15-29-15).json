@@ -1,0 +1,12 @@
+[
+   {
+      "Id": 1,
+      "PAN": 2021600000000000,
+      "PIN": 1994,
+      "Balance": 1000000,
+      "HolderName": "ADMIN CLIENT",
+      "CVV": 333,
+      "Validity": 222,
+      "ClientId": 1
+   }
+]

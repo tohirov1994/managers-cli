@@ -1,0 +1,27 @@
+[
+   {
+      "Id": 1,
+      "Service": "internet",
+      "Balance": 1500
+   },
+   {
+      "Id": 2,
+      "Service": "water",
+      "Balance": 500000
+   },
+   {
+      "Id": 3,
+      "Service": "tax",
+      "Balance": 0
+   },
+   {
+      "Id": 4,
+      "Service": "phone",
+      "Balance": 1000000
+   },
+   {
+      "Id": 5,
+      "Service": "electrocity",
+      "Balance": 0
+   }
+]
