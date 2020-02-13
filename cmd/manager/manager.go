@@ -179,20 +179,23 @@ func addClient(db *sql.DB) (errClient error) {
 	if errClient != nil {
 		return errClient
 	}
-	var loginC string
+	var loginTMP string
 	fmt.Print("Login(length more 3): ")
-	_, errClient = fmt.Scan(&loginC)
+	_, errClient = fmt.Scan(&loginTMP)
 	if errClient != nil {
 		return errClient
 	}
-	if len(loginC) <= 3 {
+	if len(loginTMP) <= 3 {
 		fmt.Printf("Enter the login is length 4 or lengter")
 		os.Exit(0)
 	}
-	loginC, errClient = core.CheckLogin(loginC, db)
-	if errClient == nil {
-		fmt.Printf("This login: %s, exist, please use another!", loginC)
+	loginC, _ := core.CheckLogin(loginTMP, db)
+	if loginC == loginTMP {
+		fmt.Printf("This login is exist: %s, please use another!", loginC)
 		os.Exit(0)
+	}else {
+		loginC = loginTMP
+		fmt.Printf("This login is free: %s, will be use it!\n", loginC )
 	}
 	var passC string
 	fmt.Print("Password(length more 3): ")
