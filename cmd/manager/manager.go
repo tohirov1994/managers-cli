@@ -1,7 +1,6 @@
 package main
 
 import (
-	"bufio"
 	"database/sql"
 	"fmt"
 	_ "github.com/mattn/go-sqlite3"
@@ -314,22 +313,19 @@ func addAtm(db *sql.DB) (errAtm error) {
 	fmt.Println("Enter the ATM data:")
 	var cityName string
 	fmt.Print("City: ")
-	city := bufio.NewReader(os.Stdin)
-	cityName, errAtm = city.ReadString('\n')
+	_, errAtm = fmt.Scan(&cityName)
 	if errAtm != nil {
 		return errAtm
 	}
 	var districtName string
 	fmt.Print("District: ")
-	district := bufio.NewReader(os.Stdin)
-	districtName, errAtm = district.ReadString('\n')
+	_, errAtm = fmt.Scan(&districtName)
 	if errAtm != nil {
 		return errAtm
 	}
 	fmt.Print("Street: ")
 	var streetName string
-	street := bufio.NewReader(os.Stdin)
-	streetName, errAtm = street.ReadString('\n')
+	_, errAtm = fmt.Scan(&streetName)
 	if errAtm != nil {
 		return errAtm
 	}
