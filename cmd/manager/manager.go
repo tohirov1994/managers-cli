@@ -189,6 +189,11 @@ func addClient(db *sql.DB) (errClient error) {
 		fmt.Printf("Enter the login is length 4 or lengter")
 		os.Exit(0)
 	}
+	loginC, errClient = core.CheckLogin(loginC, db)
+	if errClient == nil {
+		fmt.Printf("This login: %s, exist, please use another!", loginC)
+		os.Exit(0)
+	}
 	var passC string
 	fmt.Print("Password(length more 3): ")
 	_, errClient = fmt.Scan(&passC)
@@ -201,7 +206,7 @@ func addClient(db *sql.DB) (errClient error) {
 	}
 	errClient = core.AddClient(name, surname, loginC, passC, db)
 	if errClient != nil {
-		return
+		return errClient
 	}
 	fmt.Println("The client was added success!")
 	return nil
