@@ -12,8 +12,7 @@ const afterAuth = `List of available operations:
 2. Add a new card to the client
 3. Add a new service
 4. Add ATM
-5. Export data
-6. Import from a file
+5. Export data to json
 q. SignOut
 
 Enter the command: `

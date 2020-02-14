@@ -145,8 +145,6 @@ func authorizedOperationsLoop(db *sql.DB, cmd string) (exit bool) {
 			fmt.Println("Export failed")
 		}
 		log.Println("Export was successfully")
-	case "6":
-		fmt.Println("We can not import data")
 	case "q":
 		return true
 	default:

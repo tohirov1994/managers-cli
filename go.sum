@@ -10,5 +10,7 @@ github.com/tohirov1994/managers-core v0.0.0-20200213093306-21792d38b6a9 h1:u6Oh/
 github.com/tohirov1994/managers-core v0.0.0-20200213093306-21792d38b6a9/go.mod h1:wPD5ncgWoq+t5gL1zycFq+rFeViGz09eAjWubQXovo0=
 github.com/tohirov1994/managers-core v0.0.0-20200213093700-e50057887d91 h1:wGDvJ2K7QTlxnIWdPfLjJ1VVoj7srLlMfz1XyaL49QQ=
 github.com/tohirov1994/managers-core v0.0.0-20200213093700-e50057887d91/go.mod h1:wPD5ncgWoq+t5gL1zycFq+rFeViGz09eAjWubQXovo0=
+github.com/tohirov1994/managers-core v0.0.0-20200214021948-81214c93f84a h1:rLV0lpfpzXj8moJBO+L6C/WiSp2/1JeIyl5Ek6wK7KE=
+github.com/tohirov1994/managers-core v0.0.0-20200214021948-81214c93f84a/go.mod h1:wPD5ncgWoq+t5gL1zycFq+rFeViGz09eAjWubQXovo0=
 github.com/tohirov1994/terminal v0.0.0-20200212073555-ce8f98b1a59a h1:6EOERsLYt0yzxA3DvPG3WLN3fbb0tupUlxL1hl8CkQs=
 github.com/tohirov1994/terminal v0.0.0-20200212073555-ce8f98b1a59a/go.mod h1:9tSPmCAOpxxjHFE/EpnBZ5Iap8V6TaE2U0dQ7mILMgs=
